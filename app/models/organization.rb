@@ -6,5 +6,5 @@ class Organization < ApplicationRecord
 
   include SoftDelete
 
-  scope :search, ->(query) { query.present? ? where("organizations.name ILIKE ?", "%#{query}%") : all }
+  scope :search, ->(query) { query.present? ? where("organizations.name ILIKE :query OR organizations.city ILIKE :query", query: "%#{query}%") : all }
 end
