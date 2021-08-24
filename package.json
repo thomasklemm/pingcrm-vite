@@ -2,7 +2,7 @@
   "name": "pingcrm",
   "private": true,
   "scripts": {
-    "lint": "eslint --ext js,vue,ts,md --format node_modules/eslint-formatter-friendly app/javascript"
+    "lint": "eslint --ext js,vue,ts,md --format node_modules/eslint-formatter-friendly app/frontend"
   },
   "dependencies": {
     "@inertiajs/inertia": "^0.10.1",

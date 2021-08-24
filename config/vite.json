@@ -1,7 +1,7 @@
 {
   "all": {
     "devServerConnectTimeout": 0.01,
-    "sourceCodeDir": "app/javascript",
+    "sourceCodeDir": "app/frontend",
     "watchAdditionalPaths": []
   },
   "development": {
