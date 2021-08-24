@@ -49,22 +49,22 @@ end
 
 group :development do
   # A debugging tool for your Ruby on Rails applications. (https://github.com/rails/web-console)
-  gem 'web-console', '>= 4.1.0'
+  gem 'web-console'
 
   # Profiles loading speed for rack applications. (https://miniprofiler.com)
-  gem 'rack-mini-profiler', '~> 2.0'
+  gem 'rack-mini-profiler'
 
   # Listen to file modifications (https://github.com/guard/listen)
-  gem 'listen', '~> 3.3'
+  gem 'listen'
 
   # Rails application preloader (https://github.com/rails/spring)
   gem 'spring'
 
   # Makes spring watch files using the listen gem. (https://github.com/jonleighton/spring-watcher-listen)
-  gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'spring-watcher-listen'
 
   # Brings Rails named routes to modern javascript (https://github.com/elmassimo/js_from_routes)
-  gem 'js_from_routes', '~> 2.0.4'
+  gem 'js_from_routes'
 end
 
 group :test do

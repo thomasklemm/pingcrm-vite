@@ -274,15 +274,15 @@ DEPENDENCIES
   image_processing (~> 1.10)
   inertia_rails (>= 1.2.2)
   jbuilder (~> 2.7)
-  js_from_routes (~> 2.0.4)
-  listen (~> 3.3)
+  js_from_routes
+  listen
   oj
   oj_serializers
   pagy
   pg (>= 0.18, < 2.0)
   pry-byebug
   puma (~> 5.0)
-  rack-mini-profiler (~> 2.0)
+  rack-mini-profiler
   rails (~> 6.1.0)
   request_store_rails
   rubocop
@@ -290,10 +290,10 @@ DEPENDENCIES
   rubocop-rails
   selenium-webdriver
   spring
-  spring-watcher-listen (~> 2.0.0)
+  spring-watcher-listen
   tzinfo-data
   vite_rails (~> 3.0)
-  web-console (>= 4.1.0)
+  web-console
   webdrivers
 
 RUBY VERSION
