@@ -7,6 +7,7 @@ import 'virtual:windi-devtools'
 import '~/styles/application.css'
 
 import Vue from 'vue'
+import VueCompositionAPI from '@vue/composition-api'
 import VueMeta from 'vue-meta'
 
 import api from '@/api'
@@ -23,6 +24,7 @@ Vue.component('InertiaLink', Link)
 InertiaProgress.init()
 
 Vue.prototype.$api = api
+Vue.use(VueCompositionAPI)
 Vue.use(PortalVue)
 Vue.use(VueMeta)
 Vue.mixin(ConstantsMixin)
