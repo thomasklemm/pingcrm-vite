@@ -265,23 +265,23 @@ PLATFORMS
 
 DEPENDENCIES
   better_settings
-  bootsnap (>= 1.4.4)
+  bootsnap
   cancancan
-  capybara (>= 3.26)
+  capybara
   devise
   factory_bot_rails
   faker
-  image_processing (~> 1.10)
-  inertia_rails (>= 1.2.2)
-  jbuilder (~> 2.7)
+  image_processing
+  inertia_rails
+  jbuilder
   js_from_routes
   listen
   oj
   oj_serializers
   pagy
-  pg (>= 0.18, < 2.0)
+  pg
   pry-byebug
-  puma (~> 5.0)
+  puma
   rack-mini-profiler
   rails (~> 6.1.0)
   request_store_rails
@@ -292,7 +292,7 @@ DEPENDENCIES
   spring
   spring-watcher-listen
   tzinfo-data
-  vite_rails (~> 3.0)
+  vite_rails
   web-console
   webdrivers
 

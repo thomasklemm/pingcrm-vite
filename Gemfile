@@ -10,22 +10,22 @@ gem 'better_settings'
 gem 'rails', '~> 6.1.0'
 
 # Pg is the Ruby interface to the {PostgreSQL RDBMS}[http://www.postgresql.org/] (https://github.com/ged/ruby-pg)
-gem 'pg', '>= 0.18', '< 2.0'
+gem 'pg'
 
 # Puma is a simple, fast, threaded, and highly concurrent HTTP 1.1 server for Ruby/Rack applications (https://puma.io)
-gem 'puma', '~> 5.0'
+gem 'puma'
 
 # Create JSON structures via a Builder-style DSL (https://github.com/rails/jbuilder)
-gem 'jbuilder', '~> 2.7'
+gem 'jbuilder'
 
 # High-level wrapper for processing images for the web with ImageMagick or libvips. (https://github.com/janko/image_processing)
-gem 'image_processing', '~> 1.10'
+gem 'image_processing'
 
 # Boot large ruby/rails apps faster (https://github.com/Shopify/bootsnap)
-gem 'bootsnap', '>= 1.4.4', require: false
+gem 'bootsnap', require: false
 
 # Provides integration to manage frontend assets with Vite.js (https://github.com/ElMassimo/vite_ruby)
-gem 'vite_rails', '~> 3.0'
+gem 'vite_rails'
 
 # Allows to register per-request thread-safe variables (https://github.com/ElMassimo/request_store_rails)
 gem 'request_store_rails'
@@ -69,7 +69,7 @@ end
 
 group :test do
   # Capybara aims to simplify the process of integration testing Rack applications, such as Rails, Sinatra or Merb (https://github.com/teamcapybara/capybara)
-  gem 'capybara', '>= 3.26'
+  gem 'capybara'
 
   # The next generation developer focused tool for automated testing of webapps (https://github.com/SeleniumHQ/selenium)
   gem 'selenium-webdriver'
@@ -82,7 +82,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Inertia adapter for Rails (https://github.com/inertiajs/inertia-rails)
-gem 'inertia_rails', '>= 1.2.2'
+gem 'inertia_rails'
 
 # Easily generate fake data (https://github.com/faker-ruby/faker)
 gem 'faker', require: false
