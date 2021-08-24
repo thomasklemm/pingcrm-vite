@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-OjSerializers::Serializer::ALLOWED_INSTANCE_VARIABLES |= ['scope']
-
 # Internal: Provides simple integration with cancancan.
 class BaseSerializer < Oj::Serializer
   private
